@@ -1,0 +1,178 @@
+@media screen and (min-width: 1200px) {
+    .outer_div {
+        padding:0 8vw;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .outer_div {
+        padding:0 12vw;
+    }
+}
+
+.inner_div .title {
+    background-color: #fff;
+}
+
+.inner_div .uniquewhite {
+    background-color: #fff;
+}
+
+
+.range_div {
+    margin-top: 2.6rem;
+    margin-bottom: 0.4rem;
+    padding: 1rem 0px;
+    background-image: url(https://images.mamaearth.in/wysiwyg/sky_strip_desktop2x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px){
+.range_div {
+    border-radius: 10px 10px 0px 0px;
+    background-image: url(https://images.mamaearth.in/wysiwyg/sky_strip_mobile2x.png);
+    background-repeat: no-repeat;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+    .range_div {
+        border-radius:10px 10px 0px 0px;
+        background-image: url('https://images.mamaearth.in/wysiwyg/sky_strip_desktop2x.png');
+        background-repeat: no-repeat;
+    }
+}
+
+.range_text {
+    padding-top: 0.15em;
+    background-size: cover;
+    background-image: url(https://images.mamaearth.in/wysiwyg/red_tag_desktop2x.png);
+    display: inline-block;
+    width: 224.9px;
+    height: 46.71px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+}
+
+@media only screen and (max-width: 360px){
+.range_text {
+    background-image: url(https://images.mamaearth.in/wysiwyg/red_tag_mobile2x.png);
+    background-repeat: no-repeat;
+    width: 63%;
+    height: 38px;
+}
+}
+
+@media only screen and (max-width: 768px){
+.range_text {
+    background-image: url(https://images.mamaearth.in/wysiwyg/red_tag_desktop2x.png);
+    background-repeat: no-repeat;
+}
+}
+
+.card_section{
+    margin-bottom: .4rem;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+  background-color: transparent;
+  height: 4rem;
+  width: 4rem;
+  stroke: currentColor !important;
+}
+
+.slick-slider .slick-next {
+  font-size: 0px;
+  line-height: 0;
+  /* position: absolute; */
+  top: 50%;
+  /* display: block; */
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  transform: translate(0px, -50%);
+  cursor: pointer;
+  /* color: transparent; */
+  border: none;
+  /* outline: none; */
+  /* background: transparent; */
+  display: block;
+  position: absolute;
+  left: auto;
+  right: 0px;
+  z-index: 9;
+  height: 100%;
+  width: 10vw;
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.38),
+    rgba(255, 255, 255, 0)
+  );
+}
+.slick-slider .slick-prev {
+  font-size: 0px;
+  line-height: 0;
+  /* position: absolute; */
+  top: 50%;
+  /* display: block; */
+  /* width: 20px; */
+  /* height: 20px; */
+  padding: 0px;
+  transform: translate(0px, -50%);
+  cursor: pointer;
+  /* color: transparent; */
+  border: none;
+  /* outline: none; */
+  /* background: transparent; */
+  display: block;
+  position: absolute;
+  right: auto;
+  left: 0px;
+  z-index: 9;
+  height: 100%;
+  width: 10vw;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.38),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.slick-slider .slick-next .slick-arrow {
+  top: 50%;
+  height: 3.5rem !important;
+  width: 25px !important;
+  margin-top: -13px;
+  position: absolute !important;
+  font-size: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none !important;
+  background-repeat: no-repeat;
+  background-image: url(https://tarkikromanski.github.io/files/arrow-slider.png) !important;
+}
+
+.slick-prev:hover,
+.slick-prev:focus {
+  color: transparent;
+  outline: none;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.38),
+    rgba(255, 255, 255, 0)
+  ) !important;
+}
+.slick-next:hover,
+.slick-next:focus {
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.38),
+    rgba(255, 255, 255, 0)
+  ) !important;
+}

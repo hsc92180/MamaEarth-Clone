@@ -1,0 +1,383 @@
+*{
+    padding: 0%; margin: 0%; box-sizing: border-box;
+    font-family: "Open Sans",sans-serif; 
+}
+body{
+    width: 100vw;
+}
+
+/* Header__________________ */
+.top_banner{
+    background: url("../assets/plant_assets/michail-dementiev-E0LpPXeHGAM-unsplash.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 5rem;
+    max-width: 100vw;
+}
+.top_banner_left p{
+    font-size: 2.5rem;
+    padding: 2rem 0;
+} 
+
+.top_banner_left  p span{
+  font-size: 3.5rem;
+  letter-spacing: 60%;
+  font-weight: 800;
+  background: -webkit-linear-gradient( #eee, #0098cf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   line-height: 80%;
+}
+.top_banner_right p{
+    font-size: 4.5rem;
+    max-width: fit-content;
+    line-height: 95%;
+    letter-spacing: -3px;
+    font-weight: 500;
+}
+.top_banner_right p span{
+    font-size: 5rem;
+    font-weight: 900;
+    background: -webkit-linear-gradient( #eee, #82C341);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     letter-spacing: -1px;
+}
+
+/* section 2 */
+.login_sec{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    /* background: #dceef49a; */
+}
+.login_sec{
+    color: #007C36;
+    font-size: 1rem;
+    font-weight: 600 ;
+    text-align: center;
+}
+.login_btn{
+    background-color: #00AEEF;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    border-style: none;
+    color: #eee;
+    font-weight: 550;
+}
+.watering_png{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    height: 70px;
+    min-width: 50vw;
+    padding: 1rem 8rem;
+    margin-top: 3rem;
+    background-image: linear-gradient(to top, #d0d0d0,#d3d3d3a7, transparent);
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    font-size: 18px;
+    color: #00AEEF;
+
+}
+.watering_png p{
+    margin-left: 2rem;
+}
+.watering_png img{
+    width: 10.5vw;
+    height: 10vw;
+    margin-bottom: 3rem;
+}
+
+/* Plant parents section */
+.plant_parents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #DCEEF4,#DCEEF4, #eee);
+    height: fit-content;
+    padding: 4rem;
+    margin: 18px 0;
+}
+.plant_parents_people{
+    display: flex;
+    justify-content: space-around;
+    gap: 4.875rem;
+    margin-top: 2rem;
+}
+.plant_parents h1{
+    color:#007C36;
+    margin-top: 2vh;
+    font-size: 5rem;
+    font-weight: 900;
+    background-image: url("../assets/plant_assets/text-forest.avif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: none;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+@media screen and ( max-width: 920px ){
+    .plant_parents_people{
+        display: block;
+    }
+    .p1, .p2,.p3{
+        /* max-width: 300px; */
+        display: block;
+    }
+    .plant_parents h1, {
+        font-size: 2.5rem;
+    }
+    .Plantation_partner span{
+        line-height: 10vh;
+        font-size: 2rem;
+    }
+    .goodness_banner img{
+        width: 10vw;
+        height: 10vw;
+        align-self: center;
+    }
+    .goodness_banner{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .pimage{
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 1023px) 
+{
+    .hamburger_icon{
+        display: flex;
+        margin-right: 12px;
+    }
+    .below-nav, .goodness_img, .iconlabel, .login-label{
+        display: none;
+    }
+    .login {
+        padding: 0;
+    }
+    .container_right{
+        max-width: 60vw;
+    }
+    .upper-nav{
+        border-bottom: 1px solid rgb(234, 234, 234);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 6px;
+        width: 100vw;
+    }
+    
+    .top_banner_left, .top_banner_right{
+        max-width: 35vw;
+    }
+    .p1, .p2,.p3{
+        max-width: 400px;
+    }
+    .Plantation_partner span{
+        line-height: 15vh;
+        font-size: 3rem;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .upper-nav img, .upper-nav .search, .iconlabel, .login-label {
+        display: none;
+    }
+    body{
+        overflow: scroll;
+    }
+    
+    .login_popup{
+        width: 100vw;
+        padding: 0;
+        
+    }
+    .upper-nav{
+        padding: 0 5vw;
+        justify-content: flex-start;
+    }
+    .cart_login{
+        float: right;
+        margin-left: auto;
+    }
+    .outer_main_container{
+        margin: 0px;
+        flex-direction: column-reverse;
+        max-width: 100%;
+        position: relative;
+        margin-top: 75vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        display: flex;
+        /* float: left; */
+        justify-self: flex-start;
+    }
+
+    /* plants page */
+    .top_banner{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .top_banner_right p, .top_banner_left p,
+    .top_banner_left p span, .top_banner_right p span
+    {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .p1, .p2,.p3{
+        max-width: 200px;
+    }
+    .Plantation_partner span{
+        -webkit-background-clip: none;
+    }
+    .youtube_section iframe{
+        width: 100vw;
+    }
+    .container2{
+        flex-direction: column;
+    }
+}
+
+
+.plant_parents_people img{
+    height: 260px;
+    width: 230px;
+    object-fit:cover;
+    object-position: 40% 0%;
+    border-radius: 10px;
+}
+.p1 img{
+    transform: scale(1.5);
+}
+.p1_img{
+    height: 260px;
+    width: 230px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.p1,  .p2, .p3{
+    /* height: 36vw; */
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center ;
+    gap: 1rem;
+    color: #007C36;
+}
+
+/* goodness banner */
+.goodness_banner{
+    display: flex;
+    padding: 4rem;
+    /* background-color: #DCEEF4 ; */
+}
+.goodness_banner img{
+    width: 25vw;
+    object-fit:contain;
+    height: auto;
+    margin: 1rem;
+    /* padding: 1rem; */
+}
+.plant_goodness_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.plant_goodness_wrap img{
+    display: flex;
+    margin: 20px auto 20px;
+    width: 25%;
+    height: auto;
+}
+.plant_goodness_wrap p{
+    text-align: center;
+    color: #007C36;
+    font-size: 16px;
+    padding: 25px;
+    font-weight: 600;
+    max-width: 60vw;
+    display: flex;
+    justify-self: center;
+}
+/* Youtube section */
+.youtube_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    
+}
+.youtube_section iframe{
+    padding: 1rem 0 2REM 0;
+}
+.youtube_section h3{
+    text-align: center;
+    color: #007C36;
+    font-size: 1.5rem;
+    padding: 1rem 0 0 0
+}
+.youtube_section p{
+    text-align: center;
+    color: #007C36;
+    font-size: 18px;
+    padding: 12px;
+    font-weight: 500;
+}
+/* Plantation partner section */
+.Plantation_partner{
+    background-image: url("../assets/plant_assets/bottom_forest.webp");
+    background-repeat: no-repeat;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 8rem;
+    margin-top: 24px;
+}
+.Plantation_partner span{
+    color:#007C36;
+    margin-top: 8vh;
+    font-size: 5rem;
+    font-weight: 900;
+    background-image: url("../assets/plant_assets/text-forest.avif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: none;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-bottom: 3rem;
+    line-height: 19vh;
+}
+.Plantation_partner p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+.Plantation_partner img{
+    width: 200px;
+    margin: 12px auto 24px auto;
+}
+/* Footer */

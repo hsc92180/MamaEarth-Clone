@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: row;
+  /* overflow: scroll; */
+  /* width: fit-content; */
+  width: 100%;
+  height: 30rem;
+  margin: 1rem auto;
+}
+.container_left {
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* overflow: hidden; */
+  float: left;
+  opacity: 1;
+  /* flex: 1 1 0%; */
+  width: auto;
+  /* margin-right: 10px; */
+  max-height: 29rem;
+  margin-right: 1rem;
+  background-color: white;
+}
+.container_right {
+  display: flex;
+  /* position: relative;  */
+  /* width:fit-content;  */
+}
+.map_container {
+  height: 100%;
+}
+.w3-bar {
+  display: flex;
+  align-self: flex-start;
+}
+.w3-bar button:hover {
+  font-size: 14px;
+  /* white-space: pre; */
+  width: auto;
+  font-weight: 500;
+  border-bottom: 2px solid rgb(0, 174, 239);
+  color: rgb(0, 174, 239);
+}
+.tab-button.active {
+  border-bottom: 1px solid rgb(0, 174, 239);
+  color: rgb(0, 174, 239);
+}
+.w3-bar button {
+  font-size: 14px;
+  white-space: pre;
+  width: auto;
+  color: rgb(154, 154, 154);
+  border-style: none;
+  padding: 4px;
+  margin-right: 4px;
+}
+
+.tab-button {
+  background-color: transparent;
+}
+
+.city {
+  overflow: scroll;
+  /* height: 100%; */
+  /* margin: 1rem; */
+}
+.city::-webkit-scrollbar {
+  display: none;
+}
+.city_location_box {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6aa;
+  margin: 0 0rem 1rem 0rem;
+  border-bottom: 1px solid rgb(186, 186, 186);
+  padding-bottom: 6px;
+}
+.city_location_box:hover {
+  background-color: #edf7fe;
+}
+
+.city_location_box ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+  /* margin-left: 8px; */
+}
+.city_location_box li {
+  display: flex;
+  align-items: baseline;
+  justify-self: center;
+  margin-bottom: 12px;
+  font-size: 1rem;
+  overflow-wrap: break-word;
+  letter-spacing: 0.16px;
+  color: rgb(113, 113, 113);
+  margin-left: 8px;
+  gap: 8px;
+}
+.city_location_box h4 {
+  font-size: 1.15rem;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.4px;
+  margin-bottom: 1rem;
+}
+.city_location_box li i {
+  font-size: 1rem;
+}
+.city_location_box .directions button {
+  padding: 6px 12px;
+  background-color: rgb(0, 174, 239);
+  border-style: none;
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+
+  /* flex-direction: row; */
+}
+.directions a {
+  text-decoration: none;
+}
+
+/* _____________________media queries____________ */
+@media screen and (min-width: 1200px) {
+  .outer_main_container {
+    padding: 0 8vw;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .hamburger_icon {
+    display: flex;
+    margin-right: 12px;
+  }
+  .below-nav,
+  .goodness_img,
+  .iconlabel,
+  .login .login-label {
+    display: none;
+  }
+  .login {
+    padding: 0;
+  }
+  .container_right {
+    max-width: 60vw;
+  }
+  .upper-nav {
+    border-bottom: 1px solid rgb(234, 234, 234);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 6px;
+    width: 100vw;
+  }
+  /* .search, .upper-nav img, .cart_login .cart .iconlabel, .login_full .login .login-label{ */
+  /* display: none; */
+  /* } */
+}
+@media screen and (max-width: 768px) {
+  .upper-nav img,
+  .search,
+  .iconlabel,
+  .login-label {
+    display: none;
+  }
+  body {
+    overflow: scroll;
+  }
+  .payment-part {
+    margin-top: 4rem;
+  }
+  .login_popup_container {
+  }
+  .login_popup {
+    width: 100vw;
+    padding: 0;
+  }
+  .upper-nav {
+    padding: 0 5vw;
+    justify-content: flex-start;
+  }
+  .cart_login {
+    float: right;
+    margin-left: auto;
+  }
+  .outer_main_container {
+    margin: 0px;
+    flex-direction: column-reverse;
+    max-width: 100%;
+    position: relative;
+    margin-top: 75vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    /* float: left; */
+    justify-self: flex-start;
+  }
+  .container_right {
+    justify-content: center;
+    align-items: center;
+  }
+  .main_container {
+    /* the store locator div */
+
+    flex-direction: column-reverse;
+    /* top: 0; */
+  }
+  .container_right {
+    max-width: 100vw;
+  }
+  .container_left {
+    align-items: center;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-left: 0;
+  }
+  .city_location_box {
+    width: 80vw;
+  }
+}
+
+/* _______________________FOOTER__________________________ */

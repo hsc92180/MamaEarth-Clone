@@ -1,0 +1,238 @@
+.goodness-insider{
+    margin-top: 15px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 16px;
+    padding: 20px 0px;
+    
+}
+.goodness-insider h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 26px;
+    color: black;
+    padding: 0px 0px 18px;
+    
+}
+
+.goodness-insider .offers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.goodness-insider .offer-title {
+display: flex;
+justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+.goodness-insider .offer-description {
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.main{
+    padding: 0vw 8vw 4vh 8vw;
+}
+
+.goodness-insider__Pricing {
+    margin: 40px auto 60px auto;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.goodness-insider__Pricing .best-seller {
+    margin: 0px 7% 0px 0%;
+    width: 284px !important;
+    height: 318px !important;
+}
+
+.goodness-insider__Pricing .best-seller .best-seller-badge {
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.goodness-insider__Pricing .best-seller .best-seller-badge p {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin: 0px;
+    position: relative;
+    top: 12px;
+    background-color: rgb(255, 3, 3);
+    height: 27px;
+    max-width: 114px;
+    padding: 0px 16px;
+    text-align: center;
+    border-radius: 15.88px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.goodness-insider__Pricing .best-seller .plan {
+    height: 230px;
+    padding-top: 32px;
+    border-top: 1px solid rgb(153, 153, 153);
+    border-right: 1px solid rgb(153, 153, 153);
+    border-left: 1px solid rgb(153, 153, 153);
+    border-image: initial;
+    border-radius: 16px 16px 0px 0px;
+    border-bottom: none;
+    text-align: center;
+    padding-top: 26px
+}
+.goodness-insider__Pricing .pricing-plan {
+    width: 264px;
+    height: 250px;
+    margin-top: 56px;
+}
+
+.goodness-insider__Pricing .pricing-plan .plan {
+    height: 194px;
+    border-top: 1px solid rgb(153, 153, 153);
+    border-right: 1px solid rgb(153, 153, 153);
+    border-left: 1px solid rgb(153, 153, 153);
+    border-image: initial;
+    border-radius: 16px 16px 0px 0px;
+    border-bottom: none;
+    text-align: center;
+    padding-top: 26px
+}
+
+.goodness-insider__Pricing .best-seller .plan .duration {
+    font-size: 31px;
+}
+
+.goodness-insider__Pricing .pricing-plan .plan .duration {
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.goodness-insider__Pricing .best-seller .plan .price {
+    font-size: 46px;
+    font-weight: 546;
+}
+.goodness-insider__Pricing .best-seller .plan .price > span {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.goodness-insider__Pricing .pricing-plan .plan .price {
+    font-weight: 546;
+    color: black;
+    font-size: 36px;
+    margin: 0px;
+}
+
+.goodness-insider__Pricing .pricing-plan .plan .price > span {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.goodness-insider__Pricing .best-seller .plan .price-per-month {
+    font-size: 20px;
+}
+
+.goodness-insider__Pricing .pricing-plan .plan .price-per-month {
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    margin: 0px;
+}
+
+.goodness-insider__Pricing .best-seller .buy-now-btn {
+    height: 70px;
+    background-color: rgb(4, 168, 229);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 1px solid rgb(4, 168, 229);
+    width: 100%;
+    font-weight: 500;
+    border-radius: 0px 0px 16px 16px;
+
+
+}
+.goodness-insider__Pricing .best-seller .buy-now-btn > img{
+    margin: 0px 5px;
+}
+
+.goodness-insider__Pricing .pricing-plan .buy-now-btn {
+    border-radius: 0px 0px 16px 16px;
+    border: 1px solid rgb(4, 168, 229);
+    width: 100%;
+    height: 56px;
+    color: rgb(4, 168, 229);
+    font-size: 20px;
+    font-weight: 500;
+}
+.goodness-insider__Pricing .pricing-plan .buy-now-btn > img{
+    margin: 0px 5px;
+}
+
+.goodness-insider__InsiderUseDiv{
+    color: black;
+}
+.goodness-insider__InsiderUseDiv h3 {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.goodness-insider__InsiderUseDiv .uses {
+    padding: 16px 0px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: space-around;
+}
+
+.goodness-insider__TC {
+    border-radius: 8px;
+    border: 1px solid rgb(153, 153, 153);
+    padding: 24px 16px;
+    color: black;
+}
+
+.goodness-insider__TC .header {
+    padding-bottom: 0.25rem;
+}
+.goodness-insider__TC .header {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.goodness-insider__TC .title {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.goodness-insider__TC .title > h3 {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 549;
+}
+.goodness-insider__TC .content{
+    padding: 30px 10px;
+    font-size: 18px;
+}
+
+.goodness-insider__TC .content > ul {
+    list-style: none;
+
+}
+
+.goodness-insider__TC .content > ul>li::before {
+
+    content: "\2022       ";  
+    color:#00aeef; 
+    
+  }

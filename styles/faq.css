@@ -1,0 +1,66 @@
+.faqQuestion {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1d1d1d;
+}
+
+
+
+.sideLine {
+    width: 10px;
+    height: auto;
+    background: #92c935;
+    margin-right: 8px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+#faq-list-1 {
+    display: none;
+    transition: display 0.5s;
+    margin-right: 5px;
+}
+.faqListContainer {
+    list-style-type: none
+}
+
+.faqList{
+    margin-bottom: 30px;
+}
+.faq-list input:checked ~ #faq-list-1 {
+    display: flex;   
+}
+.faq-list input:checked ~ #downArrow {
+    transform: rotate(180deg);   
+}
+.faqHead{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+color: #1d1d1d;
+}
+.faq-list input:checked ~ label {
+    color: #92c935;
+
+}
+
+#downArrow {
+    float: right;
+}
+
+ .faqHead>h1::after {
+    content: "";
+    height: 0.15rem;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(147, 147, 147) 50%, rgba(0, 0, 0, 0) 100%);
+    display: block;
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
+}
+
+.faqQuestion {
+    width: 100%;
+    cursor: pointer;
+}
